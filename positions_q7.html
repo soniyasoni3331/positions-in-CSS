@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions in CSS Q7</title>
+    <style>
+        .container{
+            position: relative;
+        }
+        .card{
+            position: absolute;
+            
+            
+        }
+        .div1{
+            background-color: deepskyblue;
+            border: 2px solid black;
+            width: 300px;
+            height: 400px;
+            text-align: center;
+            
+        }
+        .card1{
+            display: block;
+            height: 250px;
+            margin-left: auto ;
+            margin-right: auto;
+            
+
+        }
+        .div2{
+            background-color: rgba(247, 247, 9, 0.989);
+            border: 2px solid black;
+            width: 300px;
+            height: 400px;
+            text-align: center;
+            top: 20px;
+            left: 50px;
+
+
+        }
+        .card2{
+            display: block;
+            height: 250px;
+            margin-left: auto ;
+            margin-right: auto;
+            
+            
+
+        }
+        .div3{
+            background-color: rgb(17, 177, 177);
+            border: 2px solid black;
+            width: 300px;
+            height: 400px;
+            text-align: center;
+            z-index: 3;
+            top: 40px;
+            left: 100px;
+            z-index: 1;
+
+
+        }
+
+        .card3{
+            display: block;
+            height: 250px;
+            margin-left: auto ;
+            margin-right: auto;
+            
+
+        }
+        .div2:hover{
+            z-index: 3;
+            top: 0px;
+            left: 0px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <h1>Hover to Unveil The pokemon</h1>
+    <div class="container ">
+    <div class="card div1">
+        <h1>Card 1</h1>
+        <img class=" card1" src="./pokemon3.jpg" alt="card 1">
+    </div>
+    <div class="card div2">
+        <h1>Card 2</h1>
+        <img class=" card2" src="./pokemon img.jpg" alt="card 2">
+    </div>
+    <div class="card div3">
+        <h1>Card 3</h1>
+        <img class="card3" src="./pokemon2.jpg" alt="card 3">
+    </div>
+    
+    
+    </div>
+</body>
+</html>
